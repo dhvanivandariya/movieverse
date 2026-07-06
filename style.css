@@ -60,3 +60,35 @@ button{
 button:hover{
     background:darkred;
 }
+.movies{
+    padding:50px;
+}
+
+.movies h2{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.movie-container{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+}
+
+.card{
+    background:#222;
+    padding:15px;
+    border-radius:10px;
+    text-align:center;
+    transition:0.3s;
+}
+
+.card img{
+    width:200px;
+    border-radius:10px;
+}
+
+.card:hover{
+    transform:scale(1.05);
+}
